@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/today"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="@string/today"/>
+    <item
+        android:id="@+id/homework"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="@string/homework"/>
+
+    <item
+        android:id="@+id/full_schedule"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calendar_view_day_24"
+        android:title="@string/schedule"/>
+    <item
+        android:id="@+id/settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings"/>
+</menu>
